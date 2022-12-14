@@ -67,7 +67,7 @@ h1,h2 {
 } 
 
 #cover-text, #cover-text h2 {
-    color: #fff;
+    color:black;
 }
 
 #hero-image {
@@ -97,20 +97,22 @@ h1,h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
+    border-radius: 20px;
     width: 300px;
-    height: 200px;
-    padding-top: 40px;
+    height: 150px;
+    padding-top: 20px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgb(233 163 28 / 70%);
 
     bottom: 30px;
     right: 150px;
 
     position: absolute;
 }
-
+#cover-header {
+    color: #fff;
+}
 /* club ethos */
 
 #club-ethos {
@@ -127,7 +129,6 @@ h1,h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-about {
@@ -141,4 +142,17 @@ h1,h2 {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0px;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
